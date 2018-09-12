@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/ubuntu/app":{"guestpath":"/home/ubuntu/app","hostpath":"/Users/tech-a451x/Coursework/DevOps/multi-machine-lab/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tech-a451x/Coursework/DevOps/multi-machine-lab","disabled":false,"__vagrantfile":true}}}
