@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
     app.hostsupdater.aliases = ["development.local"]
     app.vm.synced_folder "app", "/home/ubuntu/app"
     app.vm.provision "shell", path: "environment/app/provision.sh", privileged: false
-    app.vm.provision "shell", inline: $script
+    app.vm.provision "shell", inline: $script, privileged: false
 
   end
 
